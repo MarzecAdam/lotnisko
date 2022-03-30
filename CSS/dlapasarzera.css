@@ -1,0 +1,96 @@
+#baner_dlapasarzera{
+    position:static;
+    background-image: url(../images/baner_dlapasarzera.jpg);
+    background-position: 50% 55%;
+    background-repeat: no-repeat;
+    background-size: 1920px auto;
+    height: 20rem;
+    padding-bottom: -150px;
+    z-index: -1;
+}
+#dlapasarzera_wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: -5rem;
+}
+#dlapasarzera_con{
+    width: 70vw;
+    /* height: 500px; */
+    margin-bottom: 2rem;
+    border-radius: .5rem;
+    overflow: hidden;
+    background-color: #fff;
+    padding: 2.5rem;
+}
+#dlapasarzera_con nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.dp_nav_btn {
+    /* position: relative; */
+    display: flex;
+    flex:auto;
+    cursor: pointer;
+    margin: 0 1rem 0 1rem;
+}
+.dp_nav_btn input { 
+    display: flex;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.dp_slider {
+    display: flex;
+    flex:auto;
+    cursor: pointer;
+    background-color: #ff0000ee;
+    color:#fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: .25rem;
+    height: 3rem;
+    transition: .6s;
+    border: #0000 solid 1px;
+}
+.dp_nav_btn input:checked + .dp_slider {
+    color:#000;
+    background-color: #fff;
+    border: #000 solid 1px;
+}
+.dp_nav_btn input:hover + .dp_slider {
+    border: #000 solid 1px;
+    color:#000
+}
+
+#dp_main{
+    padding: 2rem;
+}
+#dp_main div{
+    padding-left: 5rem;
+    border-left: #f00 dashed 1px;
+}
+#dp_main h1{
+    font-size: 2em;
+    font-weight: 400;
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+}
+#dp_main h2{
+    padding-top: 1rem;
+    font-size: 1.5em;
+}
+#dp_main p{
+    text-align: justify;
+    margin: 1.5rem 5rem 1.5rem 0rem;
+    font-size: 1.1em;
+}
+#dp_main p span{
+    font-weight: 400;
+}
+#dp_main ul{
+    padding-left: 2rem;
+}

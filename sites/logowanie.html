@@ -1,0 +1,20 @@
+<div id="login_button" title="zaloguj" onclick="openloginpanel()">
+  <div id="login_wrapper">
+      <span id="login_icon"><i class='far'>&#xf2bd;</i></span>
+  </div>
+</div>
+<div id="login_back" class="panel" onclick="closeloginpanel()" >
+  <form class="panel-content animate" action="../PHP/login.php" method="post">
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="login" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+    </div>
+
+  </form>
+</div>

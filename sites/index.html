@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Adam Marzec">
+    <title>Lotnisko exe</title>
+    <link rel="icon" href="../images/title_logo.png" type = "image/x-icon"> 
+    <!-- <link rel="icon" href="https://uonetplus-uczen.vulcan.net.pl/Scripts/Vulcan.Efeb.Opiekun/21_13_6_48471/app/resources/images/herb.svg" type = "image/x-icon">  -->
+    <link rel="stylesheet" href="../CSS/main.css">
+    <link rel="stylesheet" href="../CSS/login.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script src="../JS/login.js"></script>
+</head>
+<body>
+    <div id="site_con">
+        <section id="top">
+            <section id="top_bar">
+                <div id="logo_con">
+                    <div id="logo_wrapper">
+                        <img id="logo" src="../images/logo.png" alt="LOGO">
+                        <!-- <img id="logo" src="https://uonetplus-uczen.vulcan.net.pl/Scripts/Vulcan.Efeb.Opiekun/21_13_6_48471/app/resources/images/herb.svg" alt="LOGO" > -->
+                    </div>
+                </div>
+                <div id="login_con">
+                    
+                </div>
+            </section>
+            <nav>
+                <ul>
+                    <li><a href="./index.html" title="Strona Główna">Strona Główna</a></li>
+                    <li><a href="./dla_pasarzera.html" title="Dla Pasażera">Dla Pasażera</a></li>
+                    <li><a href="./nasze_lotnisko.html" title="Nasze Lotnisko">Nasze Lotnisko</a></li>
+                    <li><a href="./about_us.html" title="Sklep">O Nas</a></li>
+                </ul>
+            </nav>
+        </section>
+        <main>
+            <section loty_con>
+                <div id="baner_loty"></div>
+                <div id="loty_wrapper">
+                    <div id="loty">
+                        <div>
+                            <div id="tablica_loty_header">
+                                <div>
+                                    <h1>Tablica Lotów</h1>
+                                </div>
+                                <nav>
+                                    <label class="tablica_loty_buttons" onclick="odloty()">
+                                        <input type="radio" id="tablica_btn_d" name="tablica_btn">
+                                        <span class="tablica_slider">odloty</span>
+                                    </label>
+                                    <label class="tablica_loty_buttons" onclick="przyloty()">
+                                        <input type="radio" name="tablica_btn">
+                                        <span class="tablica_slider">przyloty</span>
+                                    </label>
+                                </nav>
+                            </div>
+                            <section>
+                                <header id="odloty">
+                                    <div><span>odlot</span></div>
+                                    <div><span>kierunek</span></div>
+                                    <div><span>linia</span></div>
+                                    <div><span>nr lotu</span></div>
+                                    <div><span>odprawa</span></div>
+                                    <div><span>godzina odrprawy</span></div>
+                                    <div><span>bramka</span></div>
+                                </header>
+                                <header id="przyloty">
+                                    <div><span>przylot</span></div>
+                                    <div><span>kierunek</span></div>
+                                    <div><span>linia</span></div>
+                                    <div><span>nr lotu</span></div>
+                                    <div><span>bramka</span></div>
+                                </header>
+                                <article id="tablica_loty">
+                                    <!--  -->
+                                </article>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+                <section id="news_main">
+                    <div id="banner_news">
+                        <div id="news_wrapper">
+                            <div id="news_tbar">
+                                <h1>Aktualności</h1>
+                            </div>
+                            <div id="news_con">
+                                <div id="news_art">
+                                    <h2>UWAGA!</h2>
+                                    <div>
+                                        <!-- <div>
+                                            <img src="../images/enterair.png" alt="news">
+                                        </div> -->
+                                        <p>
+                                            Aktualne wymagania i ograniczenia dla pasażerów przekraczających granicę Polski w związku z COVID-19
+                                        </p>
+                                    </div>
+                                </div><div id="news_art">
+                                    <h2>Zimowy rozkład lotów</h2>
+                                    <div>
+                                        <!-- <div>
+                                            <img src="../images/enterair.png" alt="news">
+                                        </div> -->
+                                        <p>
+                                            Dziś, 25 października, wchodzi w życie zimowy rozkład lotów. W siatce połączeń nic się nie zmieni.
+                                        </p>
+                                    </div>
+                                </div><div id="news_art">
+                                    <h2>Rekordowy kwartał</h2>
+                                    <div>
+                                        <!-- <div>
+                                            <img src="../images/enterair.png" alt="news">
+                                        </div> -->
+                                        <p>
+                                            Lotnisko TEB w trzecim kwartale tego roku obsłużyło 79 559 pasażerów. To więcej o 26,6 proc. niż w analogicznym okresie ubiegłego roku. Największy skok procentowy lotnisko zanotowało w lipcu. Wtedy z Portu skorzystało 27.851 pasażerów. Było to o 31 proc. więcej osób w porównaniu z lipcem ubiegłego roku.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </main>
+        <footer>
+            <div id="footer_wrapper">
+                <div id="footer_links">
+                    <ul>
+                        <li><a href="./kontakt.html" title="kontakt">kontakt</a></li>
+                        <li><a href="./about_us.html" title="O Nas">O Nas</a></li>
+                    </ul>
+                </div>
+                <div id="footer_info">
+                    <p>CopyRight &copy; 2022 TEB Edukacja</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script>
+        odloty()
+        login()
+    </script>
+</body>
+</html>
